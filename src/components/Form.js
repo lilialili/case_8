@@ -21,7 +21,6 @@ const Form = () => {
   }
   const [form, setForm] = useState(initialFormState);
   const [isSubmitDisable, setIsSubmitDisable] = useState(true);
-  const state = useSelector((state) => state);
   const dispatch = useDispatch();
 
   const isFormValid = () => {
