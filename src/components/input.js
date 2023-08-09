@@ -8,7 +8,7 @@ export const Input = ({ label,onChange, value, type, id, placeholder, name }) =>
           </label>
        </div>
          <input
-           id={id}
+             id={id}
            type={type}
            name={name}
            placeholder={placeholder}
